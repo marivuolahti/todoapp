@@ -114,7 +114,7 @@ function Selectingitem(e) {
 
 function SavingtoLocal(to_do) {
 let anything;
-if(localStorage.getItem('anything') === null) {
+if(localStorage.getItem('anything') === null) { //Checking if I have something in local storage already
     anything = [];
 } else {
     anything = JSON.parse(localStorage.getItem("anything"));
